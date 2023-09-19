@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class CustomPageRoute extends PageRouteBuilder {
   CustomPageRoute({required this.child}): super (
-    transitionDuration: Duration(seconds: 2),
+    transitionDuration: const Duration(seconds: 2),
     pageBuilder: (context, animation, secondaryAnimation) => child);
   final Widget child;
 

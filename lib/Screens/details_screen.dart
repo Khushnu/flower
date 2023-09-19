@@ -78,11 +78,11 @@ class _DetailsScreenState extends State<DetailsScreen> {
                           ), 
                         ],
                       ),
-                      SizedBox(
+                      const SizedBox(
                         height: 10,
                       ),
-                      Text(widget.description, style: TextStyle(color: ColorsConstant.textColor, fontSize: 20, ),),
-                      SizedBox(
+                      Text(widget.description, style: const TextStyle(color: ColorsConstant.textColor, fontSize: 20, ),),
+                      const SizedBox(
                         height: 80,
                       ), 
                       Row(

@@ -2,7 +2,7 @@ import 'package:flower/Constants/colors.dart';
 import 'package:flower/PageRoute/custompageroute.dart';
 import 'package:flower/Screens/home_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
+
 
 class OnBoardingScreen extends StatelessWidget {
   const OnBoardingScreen({super.key});

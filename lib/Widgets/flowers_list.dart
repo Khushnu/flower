@@ -45,7 +45,7 @@ class _FlowerListViewState extends State<FlowerListView> {
                 child: Stack(
                   children: [
                       Transform.translate(
-                        offset: Offset(0, -50),
+                        offset: const Offset(0, -50),
                         child: Align(
                           alignment: Alignment.topCenter,
                           child: Image.asset(
@@ -76,11 +76,11 @@ class _FlowerListViewState extends State<FlowerListView> {
                           child: RichText(
                               text: TextSpan(
                                   text: '\$',
-                                  style: TextStyle(color: Colors.pink),
+                                  style: const TextStyle(color: Colors.pink),
                                   children: [
                                     TextSpan(
                                       text: e.price, 
-                                      style: TextStyle(color: Colors.black, fontSize: 20)
+                                      style: const TextStyle(color: Colors.black, fontSize: 20)
                                       )
                                     ])),
                         ),
